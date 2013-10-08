@@ -1,0 +1,333 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: "新宋体", sans-serif, serif;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #F2F2F2;
+	color: #6A6A6A;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+a {
+	text-decoration: none;
+}
+img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#top {
+	position: relative;
+	height: 112px;
+	width: 962px;
+	background-image: url(../images/wickettopbg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin: auto;
+}
+#top #publishtitle {
+	position: absolute;
+	height: 25px;
+	width: 53px;
+	left: 7px;
+	top: 132px;
+	line-height: 25px;
+	text-align: center;
+	color: #06989F;
+}
+#top #publishcontent {
+	position: absolute;
+	height: 25px;
+	width: 789px;
+	left: 71px;
+	top: 132px;
+	line-height: 25px;
+	text-align: center;
+	color: #7C7C7C;
+}
+
+#homecontent {
+	position: relative;
+	min-height:547px;
+	width: 962px;
+	margin: auto;
+	background-color: #FFF;
+}
+#homecontent ul {
+	display: block;
+}
+#homecontent ul li {
+	display: block;
+	float: left;
+}
+
+*html #homecontent {
+	position: relative;
+	height:547px;
+	width: 902px;
+	margin: auto;
+	background-color: #FFF;
+}
+#searchtitle {
+	position: absolute;
+	height: 38px;
+	width: 499px;
+	left: 233px;
+	top: -34px;
+	overflow: visible;
+}
+#searchtitle ul {
+	display: block;
+	margin-top: 5px;
+	overflow: visible;
+}
+#searchtitle ul li {
+	display: block;
+	float: left;
+	margin-left: 3px;
+}
+#searchtitle ul li a {
+	display: block;
+	height: 38px;
+	width: 143px;
+	text-align: center;
+	line-height: 32px;
+	background-image: url(../images/btn2.gif);
+	background-repeat: no-repeat;
+	background-position: center top;
+	color: #48A80F;
+}
+#searchtitle ul li a:hover {
+	background-image: url(../images/btn2_2.gif);
+	background-repeat: no-repeat;
+	background-position: center top;
+	color: #B6380E;
+}
+#searchtitle .current a  {
+	display: block;
+	height: 38px;
+	width: 168px;
+	text-align: center;
+	line-height: 38px;
+	background-image: url(../images/btn1.gif);
+	background-repeat: no-repeat;
+	background-position: center top;
+	color: #05ABE2;
+	margin-top: -5px;
+}
+*html #searchtitle .current a  {
+	display: block;
+	height: 40px;
+	width: 168px;
+	text-align: center;
+	line-height: 38px;
+	background-image: url(../images/btn1.gif);
+	background-repeat: no-repeat;
+	background-position: center top;
+	color: #05ABE2;
+}
+#searchtitle .current a:hover {
+	display: block;
+	height: 38px;
+	width: 168px;
+	text-align: center;
+	line-height: 38px;
+	background-image: url(../images/btn1_1.gif);
+	background-repeat: no-repeat;
+	background-position: center top;
+	color: #0FCC00;
+	margin-top: -5px;
+}
+
+
+#searchcontent {
+	background-image: url(../images/seachbg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	position: absolute;
+	height: 52px;
+	width: 742px;
+	left: 100px;
+	top: 1px;
+	color: #9E7018;
+}
+#searchcontent .inputarea {
+	line-height: 30px;
+	margin-top: 10px;
+	margin-left: 10px;
+	display: block;
+	float: left;
+	width: 720px;
+	text-align: center;
+}
+.inputarea .searchbtn {
+	display: block;
+	float: right;
+	width: 63px;
+	margin-top: 1px;
+	height: 27px;
+	margin-right: 0px;
+}
+.searchbtn a {
+	display: block;
+	text-align: center;
+	background-image: url(../images/searchbtn.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 27px;
+	width: 63px;
+	color: #A28204;
+	margin-right: 10px;
+}
+.searchbtn a:hover {
+	color: #B6380E;
+	height: 28px;
+}
+
+#searchcontent input {
+	font-size: 12px;
+	color: #6A6A6A;
+}
+
+
+#mapsearchcontent {
+	height: 165px;
+	width: 742px;
+	position: absolute;
+	top: 102px;
+	left: 77px;
+}
+#mapsearchtitle {
+	height: 40px;
+	width: 739px;
+	position: absolute;
+	top: 320px;
+	background-image: url(../images/mapsearchlinkbg.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	left: 81px;
+}
+#checisearchcontent {
+	height:171px;
+	width: 736px;
+	position: absolute;
+	top: 173px;
+	left: 80px;
+	border: 1px solid #50F5FA;
+}
+#checisearchcontent ul {
+	display: block;
+	padding: 0px;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 30px;
+	height: 25px;
+	line-height: 25px;
+}
+#checisearchcontent ul li {
+	float: left;
+}
+#checisearchcontent  ul li a {
+	color: #9E7018;
+}
+#checisearchcontent ul li a:hover {
+	color: #FF2D2D;
+	text-decoration: underline;
+}
+.homerow1 {
+	line-height: 25px;
+	width: 88px;
+	display: block;
+}
+
+.homerow2 {
+	line-height: 25px;
+	width: 84px;
+	display: block;
+	text-align: center;
+}
+#result_ul_content {
+	position: relative;
+	width: 960px;
+	min-height:550px;
+	top: 58px;
+	background-color: #FFF;
+	display: block;
+}
+
+
+
+#bottom {
+	background-image: url(../images/wicketbottombg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 84px;
+	width: 962px;
+	margin: auto;
+	position: relative;
+	text-align: center;
+	line-height: 50px;
+}
+
+.hide {
+	display: none;
+}
+.imp {
+	color: #FB5757;
+}
+.show {
+	display: block;
+}
+.guidetitle {
+	line-height: 28px;
+	display: block;
+	background-image: url(../images/titlebg1.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+	margin-top: 1px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-top-color: #2BF2F9;
+	border-right-color: #2BF2F9;
+	border-bottom-color: #2BF2F9;
+	border-left-color: #2BF2F9;
+	color: #06A4BF;
+	padding-left: 9px;
+	font-weight: bold;
+}
+.maplink {
+	background-image: url(../images/smallmap.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	display: block;
+	float: right;
+	margin-right: 0px;
+	width: 90px;
+	padding-left: 45px;
+	line-height: 25px;
+	font-size: 12px;
+}
+.maplink a {
+	font-size: 12px;
+	color: #1C9F33;
+	font-weight: normal;
+	line-height: 30px;
+}
+.maplink a:hover {
+	font-size: 12px;
+	color: #DE4605;
+	font-weight: normal;
+	line-height: 30px;
+}

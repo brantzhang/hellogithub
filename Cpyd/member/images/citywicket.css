@@ -1,0 +1,500 @@
+@charset "utf-8";
+
+
+
+
+/*下拉1*/
+
+#pane1 {
+	height: 488px;
+	position:absolute;
+	width:900px;
+	border: 1px solid #EEE;
+	color: #787830;
+	left: 33px;
+	top: 57px;
+	background-image: url(../images/mapsearch.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+.slide1 {
+
+}
+.btn-slide1 {
+	text-decoration: none;
+	font-size: 14px;
+	font-family: "新宋体", sans-serif, serif;
+}
+#searchclose {
+	position: absolute;
+	width: 79px;
+	line-height: 35px;
+	left: 795px;
+	top: -36px;
+	height: 35px;
+	background-image: url(../images/closebtn.gif);
+	background-repeat: no-repeat;
+	background-position: center top;
+	font-family: "新宋体", sans-serif, serif;
+}
+#searchclose a {
+	font-size: 13px;
+	color: #787878;
+	line-height: 36px;
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	height: 35px;
+}
+#searchclose a:hover {
+	color: #FE5930;
+	background-image: url(../images/closebtn_1.gif);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+/* CSS Document */
+
+#leftchoose {
+	position: absolute;
+	height: 467px;
+	width: 231px;
+	left: 25px;
+	top: 14px;
+}
+#leftchoose .choosetitle {
+	display: block;
+	line-height: 25px;
+	text-align: center;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+	width: 200px;
+	margin-left: 15px;
+	color: #BB9B02;
+	margin-top: 5px;
+	font-weight: bold;
+}
+#leftchoose .chooseitem {
+	line-height: 25px;
+	display: block;
+	margin-top: 25px;
+	color: #6C6C6C;
+	width: 213px;
+	margin-left: 7px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+	padding-left: 3px;
+}
+.chooseitem a {
+	color: #AD8F01;
+}
+.chooseitem a:hover {
+	color: #FF4A4A;
+}
+
+#leftchoose .chooseitem #select {
+	color: #7B7B7B;
+	font-size: 12px;
+}
+.map_search {
+	display: block;
+	margin-top: 35px;
+	color: #6C6C6C;
+	width: 168px;
+	margin-left: 7px;
+	padding-left: 48px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+	height: 26px;
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #CCC;
+	padding-top: 5px;
+
+}
+.map_search a {
+	display: block;
+	width: 45px;
+	text-align: center;
+	line-height: 17px;
+	border: 1px solid #FEE054;
+	background-color: #FFFCEE;
+	color: #987D01;
+	float: left;
+	margin-left: 7px;
+}
+
+.map_search a:hover {
+	display: block;
+	width: 45px;
+	text-align: center;
+	border: 1px solid #FDDB39;
+	background-color: #FFFCEE;
+	color: #E14900;
+	float: left;
+	margin-left: 7px;
+}
+
+
+#leftchoose input {
+	font-size: 12px;
+	color: #FE4B25;
+	text-align: center;
+}
+
+
+
+
+.active1 {
+
+}
+.————————CITY {
+}
+#cityname {
+	position: absolute;
+	height: 471px;
+	width: 482px;
+	left: 390px;
+	top: 11px;
+}
+#cityname a {
+	color: #1294CB;
+}
+#cityname a:hover {
+	color: #FF3C3C;
+}
+
+
+#guangzhou {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 298px;
+	top: 383px;
+}
+#shenzhen {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 330px;
+	top: 386px;
+}
+#xianggan {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 345px;
+	top: 420px;
+}
+#zhanjiang {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 282px;
+	top: 418px;
+}
+#shantou {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 359px;
+	top: 399px;
+}
+#hainan {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 288px;
+	top: 448px;
+}
+
+#liuzhou {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 252px;
+	top: 382px;
+}
+#nanning {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 234px;
+	top: 405px;
+}
+#aomen {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 318px;
+	top: 430px;
+}
+#kunming {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 167px;
+	top: 394px;
+}
+#xiamen {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 382px;
+	top: 380px;
+}
+#fuzhou {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 395px;
+	top: 356px;
+}
+#wenzhou {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 405px;
+	top: 327px;
+}
+#hangzhou {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 396px;
+	top: 302px;
+}
+#shanghai {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 407px;
+	top: 280px;
+}
+#nanjing {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 381px;
+	top: 261px;
+}
+#xuzhou {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 368px;
+	top: 243px;
+}
+#jinan {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 355px;
+	top: 216px;
+}
+#tianjin {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 353px;
+	top: 176px;
+}
+#shijiazhuang {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 326px;
+	top: 195px;
+}
+#beijing {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 318px;
+	top: 157px;
+}
+#daliang {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 397px;
+	top: 173px;
+}
+#shenyang {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 410px;
+	top: 136px;
+}
+#jilin {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 420px;
+	top: 107px;
+}
+#qiqihaer {
+	position: absolute;
+	height: 17px;
+	width: 55px;
+	left: 366px;
+	top: 37px;
+}
+#haerbin {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 430px;
+	top: 70px;
+}
+#changchun {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 354px;
+	top: 96px;
+}
+#changsha {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 297px;
+	top: 318px;
+}
+#zhuzhou {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 320px;
+	top: 344px;
+}
+#nanchang {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 347px;
+	top: 312px;
+}
+#wuhan {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 322px;
+	top: 286px;
+}
+#xiangfan {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 279px;
+	top: 268px;
+}
+#zhengzhou {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 321px;
+	top: 240px;
+}
+#luoyang {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 289px;
+	top: 229px;
+}
+#xian {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 250px;
+	top: 241px;
+}
+#ankang {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 232px;
+	top: 264px;
+}
+#taiyuan {
+	position: absolute;
+	height: 17px;
+	width: 36px;
+	left: 286px;
+	top: 187px;
+}
+#huhehaote {
+	position: absolute;
+	height: 17px;
+	width: 50px;
+	left: 266px;
+	top: 144px;
+}
+#baotou {
+	position: absolute;
+	height: 17px;
+	width: 50px;
+	left: 234px;
+	top: 158px;
+}
+#yinchuan {
+	position: absolute;
+	height: 17px;
+	width: 50px;
+	left: 206px;
+	top: 183px;
+}
+#lanzhou {
+	position: absolute;
+	height: 17px;
+	width: 50px;
+	left: 212px;
+	top: 217px;
+}
+#chengdu {
+	position: absolute;
+	height: 17px;
+	width: 50px;
+	left: 176px;
+	top: 293px;
+}
+#xining {
+	position: absolute;
+	height: 17px;
+	width: 50px;
+	left: 149px;
+	top: 212px;
+}
+#yumen {
+	position: absolute;
+	height: 17px;
+	width: 50px;
+	left: 125px;
+	top: 168px;
+}
+#geermu {
+	position: absolute;
+	height: 17px;
+	width: 50px;
+	left: 81px;
+	top: 199px;
+}
+#hami {
+	position: absolute;
+	height: 17px;
+	width: 50px;
+	left: 90px;
+	top: 119px;
+}
+#wulumuqi {
+	position: absolute;
+	height: 17px;
+	width: 55px;
+	left: 31px;
+	top: 99px;
+}

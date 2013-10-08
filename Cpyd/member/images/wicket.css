@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: "新宋体", sans-serif, serif;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+}
+a {
+	text-decoration: none;
+	color: #5A5A5A;
+}
+a:hover {
+	color: #FF4646;
+}
+
+#login {
+	position: relative;
+	height: 468px;
+	width: 896px;
+	background-image: url(../images/wicketlogin.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+#logincontent {
+	height: 250px;
+	width: 399px;
+	position: absolute;
+	left: 495px;
+	top: 86px;
+	color: #5A5A5A;
+}
+.loginblock {
+	height: 30px;
+	display: block;
+	margin-top: 30px;
+	line-height: 30px;
+}
+.loginblock a {
+	display: block;
+	float: left;
+	width: 55px;
+	height: 23px;
+	margin-top: 0px;
+	text-align: center;
+	margin-left: 3px;
+	margin-right: 10px;
+	line-height: 24px;
+	background-color: #FFF;
+	border: 1px solid #9DF8FF;
+}
+.loginblock input {
+	font-size: 12px;
+	color: #5A5A5A;
+}
+.loginfloat {
+	display: block;
+	float: left;
+	height: 30px;
+	width: 100px;
+	line-height: 25px;
+	text-align: right;
+}
+.imp {
+	color: #FC3030;
+}
+#top {
+	margin: auto;
+	height: 111px;
+	width: 962px;
+	position: relative;
+	background-image: url(../images/wickettopbg.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #DADADA;
+}
+#content {
+	width: 962px;
+	min-height:450px;
+	margin: auto;
+	position: relative;
+}
+*html #content {
+	width: 906px;
+	min-height:450px;
+	margin: auto;
+	position: relative;
+}
